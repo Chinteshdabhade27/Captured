@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+#hed-img-contact{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)50%),url(/NewBootWeb/image/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+}

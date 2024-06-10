@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#logo{
+font-family: platypi;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    background-color: rgb(2, 2, 46);
+    color: white;
+    
+}
+.navbar .nav-a{
+    color: white;
+}
+.navbar .nav-a:hover{
+ background-color: rgb(117, 116, 116);
+ color: rgb(2, 2, 46);
+}
+.dropdown22{
+    margin-left: 16%;
+}
+.navbar .dropdown-menu{
+    background-color: rgb(215, 184, 26);
+}
+#hed-img{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)50%),url(/NewBootWeb/image/camera-Fp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+}
+#hed-img .row{
+    height: 75vh;
+    
+}
+.firstjb {
+    background-color: rgb(220, 220, 3);
+}
+.firstjb #jb-h4{
+    color: rgb(96, 91, 91);
+}
+.firstjb a{
+text-decoration: none;
+color:black;
+}
+.firstjb a:hover{
+    text-decoration: none;
+    }
+    .carrier-cources .card{
+        background-color: rgb(220, 220, 3);
+    }  
+    #album1 .col-md-6{
+  /* border: 2px solid black; */
+
+    }
+    #album1 img:hover{
+       transition: all 2s;
+       transform: scale(1.1);
+    }
+    #album1 .col-md-5{
+        border: 2px solid black;  
+    }
+
+    .lastjb{
+        background: url(/NewBootWeb/image/flower-wedding.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    footer .col-md-3{
+       border: 1px solid black;
+    }
+    footer a{
+        text-decoration: none ;
+        color: white;
+    }
+   
+/* #hed-img .row h1{
+margin-top: 30vh;
+} */
